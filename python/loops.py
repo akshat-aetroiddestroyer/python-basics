@@ -295,12 +295,17 @@
 #     if i%10==0:
 #         print(i)
 
-# n=int(input("enter numbers"))
-# factor=1
-# sum=0
-# for i in range(1,n+1):
+# n=int(input("enter the umber of input"))
+# greatest=0
+# for i in range(n):
+#     a=int(input("enter number"))
+#     if a>greatest:
+#         greatest=a
+# print(greatest)
 
- 
+
+
+
                                            
 
     
