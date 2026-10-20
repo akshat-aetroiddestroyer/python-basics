@@ -634,3 +634,167 @@
 #         print("*",end="")
 #     print()
 
+# a=[1,4,7,10]
+# b=[2,3,8,9]
+
+# n1=len(a) #4
+# n2=len(b) #4
+# i=0 #1 2 3 4
+# j=0 #1 2 3 4
+# ans=[] #1 2  3 4 7 8 9 10
+# while i<n1 and j<n2:
+#     if a[i]<b[j]:
+#         ans.append(a[i])
+#         i+=1
+#     else:
+#         ans.append(b[j])
+#         j+=1
+# while i<n1:
+#     ans.append(a[i])
+#     i+=1
+# while j<n2:
+#     ans.append(b[j])
+#     j+=1
+# print(ans)
+
+
+# a=[1,4,7,10]
+# b=[2,3,8,9]
+# i=0
+# j=0
+# n1=len(a)
+# n2=len(b)
+# ans=[]
+
+# while i<n1 and j<n2:
+#     if a[i]<b[j]:
+#         ans.append(a[i])
+#         i+=1
+#     else:
+#         ans.append(b[j])
+#         j+=1
+# while i<n1:
+#     ans.append(a[i])
+#     i+=1
+# while j<n2:
+#     ans.append(b[j])
+#     j+=1
+# print(ans)
+
+# a=[1,3,5,7,9,11,13]
+# b=[2,4,6]
+# n1=len(a)
+# n2=len(b)
+# i=0
+# j=0
+# ans=[]
+# while i<n1 and j<n2:
+#     if a[i]<b[j]:
+#         ans.append(a[i])
+#         i+=1
+#     else:
+#         ans.append(b[j])
+#         j+=1
+# while i<n1:
+#     ans.append(a[i])
+#     i+=1
+# while j<n2:
+#     ans.append(b[j])
+#     j+=1
+# print(ans)
+
+# a=[2,4,6]
+# b=[1,3,5,7,9,11,13]
+# n1=len(a)
+# n2=len(b)
+# ans=[]
+# i=0
+# j=0
+# while i<n1 and j<n2:
+#     if a[i]<b[j]:
+#         ans.append(a[i])
+#         i+=1
+#     else:
+#         ans.append(b[j])
+#         j+=1
+# while i<n1:
+#     ans.append(a[i])
+#     i+=1
+# while j<n2:
+#     ans.append(b[j])
+#     j+=1
+# print(ans)
+# n=int(input("number"))
+# sum=0
+# copy=n
+# length=len(str(n))
+# while n>0:
+#     last=n%10
+    
+#     sum=sum+last**length
+#     n//=10
+# if copy==sum:
+#     print("armstrong")
+# else:
+#     print("not armstrong")
+
+# n=int(input("number"))
+# copy=n
+# sum=0
+# length=len(str(n))
+# while n>0:
+#     last=n%10
+#     sum+=last**length
+#     n//=10
+# if copy==sum:
+#     print("armstrong")
+# else:
+#     print("not armstrong")
+
+# n=7
+# for i in range(n,0,-1):
+#     print(i)
+
+# n=12
+# for i in range(1,n+1):
+#     if i%2==0:
+#         print(i)
+
+# n=5
+# sum=0
+# for i in range(1,n+1):
+#     sum+=i
+# print(sum)
+
+# n=4
+# for i in range(n):
+#     for j in range(n):
+#         print("*",end=" ")
+#     print()
+
+# n=5
+# for i in range(1,n+1):
+#     for j in range(i):
+#         print("*",end=" ")
+#     print()
+
+# n=5
+# for i in range(5,0,-1):
+#     for j in range(i):
+#         print("*" , end=" ")
+#     print()
+
+# n=5
+# for i in range(1,n+1):
+#     for j in range(1 , i+1):
+#         print(j,end=" ")
+#     print()
+
+# n=5
+# for i in range(1,n+1):
+#     for j in range(i):
+#         print(i,end=" ")
+#     print()
+
+
+

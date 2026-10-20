@@ -144,4 +144,45 @@
 #         print("*",end="")
 #     print()
 
- 
+# a=[1,2,3,4,5]
+# gratest=0
+# for i in a:
+#     if i>gratest:
+#         gratest=i
+# print(a.index(gratest) , gratest)
+
+# n=5
+# sum=0
+# for i in range(1,n+1):
+#     sum+=i
+# print(sum)
+
+# n=4
+# for i in range(n):
+#     for j in range(n):
+#         print("*",end=" ")
+#     print()
+
+# n=5
+# for i in range(1,n+1):
+#     for j in range(i):
+#         print("*",end=" ")
+#     print()
+
+# n=5
+# for i in range(5,0,-1):
+#     for j in range(i):
+#         print("*" , end=" ")
+#     print()
+
+# n=5
+# for i in range(1,n+1):
+#     for j in range(1 , i+1):
+#         print(j,end=" ")
+#     print()
+
+# n=5
+# for i in range(1,n+1):
+#     for j in range(i):
+#         print(i,end=" ")
+#     print()

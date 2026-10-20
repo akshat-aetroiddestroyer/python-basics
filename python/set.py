@@ -26,7 +26,8 @@
 # s.discard(100)           #removes the element but will not show any error if the element is not present in set
 # print(s)
 
-
+#s.clear()             #remove all elements in a set
+# print(s)
 '''OPERATIONS IN SETS'''
 
 # s1={1,2,3,4}            #.union() or '|' will merge two sets
