@@ -356,3 +356,113 @@
 # ============================================================
 # END OF ORGANIZED PRACTICE FILE
 # ============================================================
+
+
+
+
+
+
+# a = [2, 7, 11, 15]
+# target = 9
+# found = False
+
+# for i in range(len(a)):
+#     for j in range(i + 1, len(a)):
+#         if a[i] + a[j] == target:
+#             print(a[i], a[j])
+#             found = True
+#             break
+#     if found:
+#         break
+
+   
+# a=[1,2,3,4,5,6,7,8,9]             #sum two number which give target
+# target=5
+# found=False
+# for i in range(len(a)):
+#     for j in range(i+1 , len(a)):
+#         if a[i]+a[j]==target:
+#             print(a[i] , a[j])
+#             found=True
+#             break
+            
+# a=[1,2,3,4,5,6,7,8,9] 
+# found=False
+# target=8
+# n=len(a)
+# for i in range(n):
+#     for j in range(i+1, n):
+#         if a[i]+a[j]==target:
+#             print(a[i] , a[j])
+#             found=True
+#             break
+
+
+# a=[1,2,3,4,5,6,7,8,9] 
+# found=False
+# target=9
+# n=len(a)
+# for i in range(n):
+#     for j in range(i+1 , n):
+#         if a[i]+a[j]==target:
+#             print(a[i] , a[j])
+#             found=True
+#             break
+
+# a=[1,2,3,4,5,6,7,8,9] 
+# found=False
+# target=6
+# n=len(a)
+# for i in range(n):
+#     for j in range(i+1 , n):
+#         if a[i]+a[j]==target:
+#             print(a[i] , a[j])
+#             found=True
+#             break
+
+# a=[1,2,3,4,5,6,7,8,9] 
+# found=False
+# n=len(a)
+# target=7
+# for i in range(n):
+#     for j in range(i+1 , n):
+#         if a[i]+a[j]==target:
+#             print(a[i] , a[j])
+#             found=True
+#             break
+
+# a=[1,2,3,-4,-5,-6,0,0,1,3]
+# pos=[]
+# neg=[]
+# zero=[]
+# for i in a:
+#     if i>0:
+#         pos.append(i)
+#     elif i<0:
+#         neg.append(i)
+#     else:
+#         zero.append(i)
+# print(pos)
+# print(neg)
+# print(zero)
+
+# a=[1,2,3,4,5,6,7,8,9]
+# n=len(a)
+# target=8
+# for i in range(n):
+#     for j in range(i+1 , n):
+#         if a[i]+a[j]==target:
+#             print(a[i] , a[j])            
+#             break
+        
+# a=[0,1,0,2,3,4]
+# zero=0
+# result=[]
+# for i in a:
+#     if i!=0:
+#         result.append(i)
+#     else:
+#         zero+=1
+# for i in range(zero):
+#     result.append(0)
+# print(result)
