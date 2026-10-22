@@ -68,7 +68,7 @@ print(a*5)'''
     
 # a=(1,2,3,4,5,6,7,7,7,7)
 # countt=a.count(7)
-# print(countt)
+# print(countt)   
     
 
 a=(10,20,30,40,50)
