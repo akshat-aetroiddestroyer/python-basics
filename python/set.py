@@ -59,4 +59,29 @@
 # print(s1)
 
 
+# a=10,20,30,40,50
+# print(set(a))
+
+# a={10,20,30,40,50}
+# a.add(60)
+# print(a)
+
+# a={10,20,30,40,50}
+# a.remove(30)
+# print(a)
+
+# a={10,20,30,40}
+# if 30 in a:
+#     print("element exist")
+# else:
+#     print("not exist")
+
+# a={10,20,30,40,50}
+# count=0
+# for i in a:
+#     count+=1
+# print(count)
+
+# a=[1,2,3,3,4,4,4,3,5,5]
+# print(set(a))
 
