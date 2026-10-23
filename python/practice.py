@@ -466,3 +466,301 @@
 # for i in range(zero):
 #     result.append(0)
 # print(result)
+
+# a=[10,20,30,40,50]
+# target=50
+# n=len(a)
+# for i in range(n):
+#     for j in range(i+1 , n):
+#         if a[i]+a[j]==target:
+#             print(a[i] , a[j])
+
+# a=[1,2,3,4,5,6,7]
+# target=5
+# for i in range(len(a)):
+#     for j in range(len(a)):
+#         if a[i]+a[j]==target:
+#             print(a[i] , a[j])
+
+# a=[1,2,3,0,0,0,4,5,6,7,8]
+# b=[]
+# zero=0
+# for i in a:
+#     if i==0:
+#         zero+=1
+#     else:
+#         b.append(i)
+# for i in range(zero):
+#     b.append(0)
+# print(b)
+
+# a=[1,2,3,0,0,0,4,5,6,7,8]
+# count=0
+# b=[]
+# for i in a:
+#     if i==0:
+#         count+=1
+#     else:
+#         b.append(i)
+# for i in range(count):
+#     b.append(0)
+# print(b)
+
+# a=[1,2,3,3,3,3,4,4,4,4,5,5,6]
+# visited=[]
+# for i in a:
+#     if i not in visited:
+#         count=0
+#         for j in a:
+#             if i==j:
+#                 count+=1
+#         print(i , '-' , count)
+#         visited.append(i)
+       
+# numbers = [1, 2, 2, 3, 3, 4, 5, 5, 5]
+# visited = []
+# for i in numbers:
+#     if i not in visited:
+#         count = 0
+#         for j in numbers:
+#             if i == j:
+#                 count += 1
+#         print(i, "=", count)
+#         visited.append(i)
+    
+    
+# s = input("Enter a string: ")
+# visited = ""
+# for ch in s:
+#     if ch not in visited:
+#         count = 0
+#         for other in s:
+#             if ch == other:
+#                 count += 1
+#         print(ch, "=", count)
+#         visited += ch
+
+
+
+# a=[1,2,3,4,5,6]
+# b=[5,6,7,8,9,10]
+# common=[]
+# for i in a:
+#     if i in b and i not in common:
+#         common.append(i)
+# print(common)
+
+
+# a=[10,20,30,40]
+# sum=0
+# n=len(a)
+# for i in a:
+#     sum=sum+i
+# avg=sum/n
+# print(avg)
+
+
+
+
+
+
+
+
+
+
+
+        # Q30. Move all zeros to the end while preserving the order of non-zero items.
+# numbers = [0, 1, 0, 3, 12]
+# result = []
+# zero_count = 0
+# for i in numbers:
+#     if i == 0:
+#         zero_count += 1
+#     else:
+#         result.append(i)
+# for i in range(zero_count):
+#     result.append(0)
+# print(result)
+
+
+# a=[1,2,3,4,5,6]
+# s=0
+# g=0
+# for i in a:
+#     if i>g:
+#         s=g
+#         g=i
+#     elif i>s:
+#         s=i
+# print(s)
+
+
+# a=[1,2,3,4,5,6]
+# target=10
+# for i in range(len(a)):
+#     for j in range(len(a)):
+#         if (a[i]+a[j])==target:
+#             print(a[i] , a[j])
+
+# a=[1,2,4,5]
+# n=5
+# missing=0
+# for i in range(1 , n+1):
+#     count=0
+#     for j in a:
+#         if i==j:
+#             count+=1
+#             break
+# print(missing)
+
+
+# a='eat sleep code and repeat code and eat clean'
+# d={}
+# words=a.split(' ')
+# for i in words:
+#     n=len(i)
+#     temp=[]
+#     for j in words:
+#         if len(j)==n and j not in temp:
+#             temp.append(j)
+#         d[n]=temp
+# print(d)
+
+# a='silent'
+# b='listen'
+# if len(a)!=len(b):
+#     print("not anagram")
+# else:
+#     for i in range(len(a)):
+#         count_a=0
+#         count_b=0
+
+#         for j in range(len(a)):
+#             if a[i]==a[j]:
+#                 count_a+=1
+#             if a[i]==b[j]:
+#                 count_b+=1
+#         if count_a!=count_b:
+#             print('not anagram')
+#             break
+#     else:
+#         print('anagram')
+    
+# for i in range(len(a)):
+#         if i in b:
+#                 count=0
+#                 for j in range(len(a)):
+#                         if i==j:
+#                                 count+=1
+#                                 print('string are anagram')
+#                         else:
+#                                 print("not anagram")
+                
+# a='listen'
+# b='silent'
+# n=len(a)
+# m=len(b)
+# if n!=m:
+#     print("not anagram")
+# else:
+#     for i in range(n):
+#         c1=0
+#         c2=0
+#         for j in range(n):
+#             if a[i]==a[j]:
+#                 c1+=1
+#             if a[i]==b[j]:
+#                 c2+=1
+#         if c1!=c2:
+#             print('not anagram')
+#             break
+#     else:
+#         print('anagram')
+
+
+# a='list'
+# b='silt'
+# if len(a)!=len(b):
+#     print('not anagram')
+# else:
+#     for i in range(len(a)):
+#         c1=0
+#         c2=0
+#         for j in range(len(a)):
+#             if a[i]==a[j]:
+#                 c1+=1
+#             if a[i]==b[j]:
+#                 c2+=1
+#         if c1!=c2:
+#             print('not alagram')
+#             break
+#     else:
+#         print('alagram')  
+
+# a='hi hello hi'
+# b=[]
+# a=a.split(' ')
+# for i in a:
+#     if i not in b:
+#         count=0
+#         for j in a:
+#             if i==j:
+#                 count+=1
+#         print(i , '-' , count)
+#         b.append(i)
+        
+# a='abcabca'
+# b=[]
+# for i in a:
+#     if i not in b:
+#         count=0
+#         for j in a:
+#             if i==j:
+#                 count+=1
+#         if count>1:
+#                 print(i)
+#                 break
+
+# a='programming'
+# b=[]
+# for i in a:
+#     if i not in b:
+#         count=0
+#         for j in a:
+#             if i==j:
+#                 count+=1
+#         if count==1:
+#             b.append(i)
+# print(b)
+
+# a='i love programming'
+# b=a[0]
+# a=a.split(' ')
+# for i in a:
+#     if len(i)>len(b):
+#         b=i
+
+# print(b)
+
+
+# a='i love programming'
+# greatest=a[0]
+# a=a.split(' ')
+# for i in a:
+#     if len(i)>len(greatest):
+#         greatest=i
+# print(greatest)  
+
+
+# a="i love python"
+# for i in range(ord('a') , ord('z')+1):
+#     count=0
+#     for j in a:
+#         if j==chr(i):
+#             count+=1
+#     if count>0:
+#         print(chr(i), '-' , count)
+    
+
+a='Abc@123'
+a=a.split(' ')
