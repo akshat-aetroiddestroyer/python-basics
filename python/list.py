@@ -634,28 +634,28 @@
 #         print("*",end="")
 #     print()
 
-a=[1,4,7,10]
-b=[2,3,8,9]
+# a=[1,4,7,10]
+# b=[2,3,8,9]
 
-n1=len(a) #4
-n2=len(b) #4
-i=0 #1 2 3 4
-j=0 #1 2 3 4
-ans=[] #1 2  3 4 7 8 9 10
-while i<n1 and j<n2:
-    if a[i]<b[j]:
-        ans.append(a[i])
-        i+=1
-    else:
-        ans.append(b[j])
-        j+=1
-while i<n1:
-    ans.append(a[i])
-    i+=1
-while j<n2:
-    ans.append(b[j])
-    j+=1
-print(ans)
+# n1=len(a) #4
+# n2=len(b) #4
+# i=0 #1 2 3 4
+# j=0 #1 2 3 4
+# ans=[] #1 2  3 4 7 8 9 10
+# while i<n1 and j<n2:
+#     if a[i]<b[j]:
+#         ans.append(a[i])
+#         i+=1
+#     else:
+#         ans.append(b[j])
+#         j+=1
+# while i<n1:
+#     ans.append(a[i])
+#     i+=1
+# while j<n2:
+#     ans.append(b[j])
+#     j+=1
+# print(ans)
 
 
 
@@ -796,6 +796,8 @@ print(ans)
 #     for j in range(i):
 #         print(i,end=" ")
 #     print()
+
+
 
 
 
