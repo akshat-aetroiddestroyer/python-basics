@@ -304,7 +304,6 @@
 # n=int(input("enter number"))
 # fact=1
 # sum=0
-
 # while fact<n:
 #     if n%fact==0:
 #         sum+=fact
@@ -314,7 +313,15 @@
 # else:
 #     print("not a perfect number")
 
-
+# n=int(input('enter'))
+# factor=1
+# sum=0
+# while n>0:
+#     if n%factor==0:
+#         sum+=factor
+#     factor+=1
+# if sum==n:
+#     print()
 
 
 

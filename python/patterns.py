@@ -175,7 +175,7 @@
 #         print("*" , end=" ")
 #     print()
 
-# n=5
+# n=4
 # for i in range(1,n+1):
 #     for j in range(1 , i+1):
 #         print(j,end=" ")
@@ -186,3 +186,151 @@
 #     for j in range(i):
 #         print(i,end=" ")
 #     print()
+
+
+
+# l=1
+# r=20
+# for i in range(l,r+1):
+#     for j in range(1,i+1):
+#         if j*j==i:
+#             print(i)
+
+
+# a=int(input('enter'))
+# b=int(input('enter'))
+# factor_1=[]
+# factor_2=[]
+# for i in range(1,n):
+#     if n%i==0:
+#         factor_1.append(i)
+# for j in range(1,a):
+#     if a%j==0:
+#         factor_2.append(j)
+# greatest=0
+# for i in factor_2:
+#     if i in factor_1:
+#         if i>greatest:
+#             greatest=i
+# print(greatest)
+
+# def gcd(a,b):
+#     while a>0:
+#         remainder = b%a
+#         b = a
+#         a = remainder
+#     return b
+# print(gcd(a,b))
+
+
+
+# a='akshat'
+# rev=''
+# for i in a:
+#     rev=i+rev
+# print(rev)
+# n=10
+# count=0
+# while n>0:
+#     if n%3==0:
+#         count+=1
+# print(n)
+# print(f'total execution is:{count}')
+
+# n = 10
+# count = 0
+# while n > 0:
+#     print(n)
+#     count += 1
+#     n -= 3
+# print("Total loops:", count)
+# n=1
+# sum=0
+# count=0
+# for i in range(1,7):
+#     sum+=i
+#     count+=1
+# print(sum)
+# print(count)
+
+# l=1
+# r=20
+# for i in range(l,r+1):
+#     count=0
+#     for j in range(1,i+1):
+#         if i%j==0:
+#             count+=1
+#     if count==3:
+#         print(i)
+# l=1
+# r=20
+# num=0
+# max_count=0
+# for i in range(l,r+1):
+#     print(i,end=": ")
+#     count=0
+#     for j in range(1,i+1):
+#         if i%j==0:
+#             print(j,end=' ')
+#             count+=1
+#     if count>max_count:
+#         max_count=count
+#         num=i
+#     print()
+# print(num , max_count)
+# l=1
+# r=100
+# max_count=0
+# num=0
+# for i in range(l,r+1):
+#     print(i,end=': ')
+#     count=0
+#     for j in range(1,i+1):
+#         if i%j==0:
+#             count+=1
+#             print(j,end=' ')
+#     if count>max_count:
+#         max_count=count
+#         num=i
+#     print()
+
+# n=18
+# sum=0
+# copy=n
+# while n>0:
+#     last=n%10
+#     sum=sum+last
+#     n//=10
+# if copy%sum==0:
+#     print('harshad')
+# else:
+#     print('not')
+
+# if count==1:
+#     print('harshad number')
+# else:
+#     print('not')
+# l=3
+# r=5
+# diffrence=0
+# for i in range(l,r+1):
+#     count=0
+#     for j in range(1,i+1):
+#         if i%j==0:
+#             count+=1
+# diffrence=r-l
+# # print(diffrence)
+# if count==2 and diffrence==2:
+#         print('both are prime number and twin')
+# else:
+#         print('not')
+# if l-r==2:
+#     print('twin')
+# else:
+#     print('not twin')
+# l=3
+# r=5
+# diff=0
+# for i in range(l,r+1):
+#     diff=r-l
+# print(diff)
