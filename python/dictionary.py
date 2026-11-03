@@ -146,16 +146,14 @@
 #     sum+=a[i]
 # print(sum) 
 
-# a=[1,2,3,4,5,6,6,6,6,6,1,1,1,2,2,2,2,3,3,3,4,4,5,5,5]     #frequency of each element by using dictionaries
-
+# a=[2,3,4,5,6,6,6,6,6,1,1,2,2,2,2,3,3,3,4,4,5,5,5]     #frequency of each element by using dictionaries
 # d = {}
 # for i in a:
-#    if i in d.keys():
-#         d[i] +=1
+#    if i in d:
+#         d[i]+=1
 #    else:
 #        d[i]=1
 # print(d)
-
 
 # a=[1,2,3,4,5,6,6,6,6,6,1,1,1,2,2,2,2,3,3,3,4,4,5,5,5]
 # d={}
@@ -692,3 +690,18 @@
 #    else:
 #        d[i]=1
 # print(d)
+
+# n = int(input("Enter a number: "))
+# def prime(n):
+#    count = 0
+#    for i in range(1, n + 1):
+#       if n % i == 0:
+#          count += 1
+#    if count == 2:
+#       print("Prime number")
+#    else:
+#       print("Not a prime number")
+# prime(n)
+
+
+
