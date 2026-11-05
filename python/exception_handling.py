@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+# <<<<<<< HEAD
 '''exception handling 
     1.deal with errors except
        .syntax error
@@ -281,7 +281,7 @@
 #         print("Anagram")
 # else:
 #     print("Not Anagram")
-=======
+# =======
 '''exception handling 
     1.deal with errors except
        .syntax error
@@ -443,30 +443,9 @@
 #     if a[i - 1] < a[i] > a[i + 1]:
 #         hill += 1
 #     elif a[i - 1] > a[i] < a[i + 1]:
-#         valley += 1
-
-# print(valley + hill)
-
-# nums = [2, 4, 1, 1, 6, 5]
-
-# i = 1
-# while i < len(nums):
-#     if nums[i] == nums[i - 1]:
-#         nums.pop(i)
-#     else:
-#         i += 1
-# hill = 0
-# valley = 0
-# for i in range(1, len(nums) - 1):
-#     if nums[i] > nums[i - 1] and nums[i] > nums[i + 1]:
-#         hill += 1
-#     elif nums[i] < nums[i - 1] and nums[i] < nums[i + 1]:
-#         valley += 1
-# print(hill, valley)
-# print(hill + valley)
-<<<<<<< Updated upstream
->>>>>>> a4ab258 (Add exception handling examples and explanations)
-=======
+#         v<<<<<<< Updated upstream
+# >>>>>>> a4ab258 (Add exception handling examples and explanations)
+# =======
 # a=0
 # b=0
 # for i in range(7):
@@ -961,4 +940,90 @@
 #     print('strong')
 # else:
 #     print('not strong')
->>>>>>> Stashed changes
+# >>>>>>> Stashed changes
+
+
+# i = 1
+# while i < len(nums):
+#     if nums[i] == nums[i - 1]:
+#         nums.pop(i)
+#     else:
+#         i += 1
+# hill = 0
+# valley = 0
+# for i in range(1, len(nums) - 1):
+#     if nums[i] > nums[i - 1] and nums[i] > nums[i + 1]:
+#         hill += 1
+#     elif nums[i] < nums[i - 1] and nums[i] < nums[i + 1]:
+#         valley += 1
+# print(hill, valley)
+# print(hill + valley)
+# >>>>>>> a4ab258 (Add exception handling examples and explanations)
+
+# n=145
+# sum=0
+# while n>0:
+#     fact=1
+#     last=n%10
+#     for i in range(1,last+1):
+#         fact*=i
+#     sum+=fact
+#     n//=10
+# print(sum)
+# n=145
+# sum=0
+# while n>0:
+#     fact=1
+#     last=n%10
+#     for i in range(1,last+1):
+#         fact*=i
+#     sum+=fact
+#     n//=10
+# print(sum)
+
+# n=123
+# sum=0
+# while n>0:
+#     fact=1
+#     last=n%10
+#     for i in range(1,last+1):
+#         fact*=i
+#     sum+=fact
+#     n//=10
+# print(sum)
+# a=[1,2,3,4,5,6,7,8,9,10]
+# target=20
+# for i in range(len(a)):
+#     for j in range(i+1,len(a)):
+#         for k in range(j+1,len(a)):
+#             if a[i]+a[j]+a[k]==target:
+#                 print(a[i],a[j],a[k])
+
+# class Solution:
+#     def threeSum(self, a: list[int]) -> list[list[int]]:
+#             target=0
+#             ans=set()
+#             for i in range(len(a)):
+#                 for j in range(i+1,len(a)):
+#                     for k in range(j+1,len(a)):
+#                         if a[i]+a[j]+a[k]==target:
+#                             ans.add(tuple(sorted([a[i],a[j],a[k]])))
+#             return [list(x) for x in ans]
+# n=1234
+# greatest=float('-inf')
+# smallest=float('inf')
+# while n>0:
+#     last=n%10
+#     if last>greatest:
+#         greatest=last
+#     elif last<smallest:
+#          smallest=last
+#     n//=10
+# print(greatest , smallest)
+# smallest=float('inf')
+# while n>0:
+#     last=n%10
+#     if last<smallest:
+#         smallest=last
+#     n//=10
+# print(smallest)
