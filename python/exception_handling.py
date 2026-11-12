@@ -1027,3 +1027,182 @@
 #         smallest=last
 #     n//=10
 # print(smallest)
+
+# n=23
+# lis=[]
+# while n!=1 and n not in lis:
+#     lis.append(n)
+#     sum=0
+#     temp=n
+#     while temp>0:
+#         last=temp%10
+#         a=last**2
+#         sum+=a
+#         temp//=10
+#     n=sum
+# if n==1:
+#     print('happy')
+# else:
+#     print('not happy')
+# print('not happy')
+# print(sum)
+# n=[1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6]
+# a=[]
+# for i in n:
+#     if i not in a:
+#         count=0
+#         for j in n:
+#             if i==j:
+#                 count+=1
+#         print(i ,'-', count)
+#         a.append(i)
+# n=111122233444444
+# a=[]
+# while n>0:
+#     last=n%10
+#     n//=10
+#     temp=n
+# for i in temp:
+#     if i not in a:
+#         count=0
+#         for j in n:
+#             if i==j:
+#                 count+=1
+#         print(i ,'-', count)
+#         a.append(i)
+# color=[1,3,1,3,1,1,3]
+# diff=0
+# for i in range(len(color)):
+#     for j in range(i+1 , len(color)):
+#         if i<j:
+#             diff=abs(j-i)
+# print(diff)
+
+# nums=[0,1,2]
+# count=0
+# smallest=float('inf')
+# n=len(nums)
+# for i in range(n):
+#     if i%10==nums[i]:
+#         count+=1
+#         # print(nums[i])
+#     if i<smallest:
+#         smallest=i
+# print(count , smallest)
+
+# n=len(nums)
+# for i in range(n):
+#     if i%10==nums[i]:
+#         print(i)
+#     else:
+#         print(-1)
+
+
+# gain=[-5,1,5,0,-7]
+# sum=0
+# b=[]
+# for i in gain:
+#     sum+=i
+#     b.append(sum)
+# max=0
+# for i in b:
+#     if i>max:
+#         max=i
+# print(max)
+
+# class Solution:
+#     def largestAltitude(self, gain: List[int]) -> int:
+#         sum = 0  # Stores the current altitude, starting from 0
+#         b = []  # Empty list to store the altitude after every movement
+#         for i in gain:  # Loops through each value in the gain list
+#             sum += i  # Adds the current gain to the previous altitude
+#             b.append(sum)  # Stores the updated altitude in the list b
+#         max = 0  # Assumes the highest altitude is initially 0
+#         for i in b:  # Loops through all the calculated altitudes
+#             if i > max:  # Checks if the current altitude is greater than the maximum
+#                 max = i  # Updates max with the new highest altitude
+#         return max  # Returns the highest altitude reached
+# seats = [3,1,5]
+# students = [2,7,4]
+# seats.sort()
+# students.sort()
+# ans=0
+# for i in range(len(seats)):
+#     ans+=abs(seats[i]-students[i])
+# print(ans)
+
+
+# n=int(input('enter'))
+# a=int(input('enter'))
+# factor_1=[]
+# factor_2=[]
+# for i in range(1,n):
+#     if n%i==0:
+#         factor_1.append(i)
+# for j in range(1,a):
+#     if a%j==0:
+#         factor_2.append(j)
+# greatest=0
+# for i in factor_2:
+#     if i in factor_1:
+#         if i>greatest:
+#             greatest=i
+# print(greatest)
+
+# def gcd(a,b):
+#     while a>0:
+#         remainder = b%a
+#         b = a
+#         a = remainder
+#     return b
+# gcd(10,2)
+
+# nums = [2,5,6,9,10]
+# greatest=0
+# for i in nums:
+#     if i>greatest:
+#         greatest=i
+# smallest=greatest
+# for i in nums:
+#     if i<smallest:
+#         smallest=i
+# a=greatest
+# b=smallest
+# c=[]
+# d=[]
+# for i in range(1,a+1):
+#     if a%i==0:
+#         c.append(i)
+# for j in range(1,b+1):
+#     if b%j==0:
+#         d.append(j)
+# maximun=0
+# for i in d:
+#     if i in c:
+#         if i>maximun:
+#             maximun=i
+# print(maximun)
+
+
+# nums = [2,5,6,9,10]
+# maxi=max(nums)
+# mini=min(nums)
+# a=[]
+# b=[]
+# for i in range(1,maxi+1):
+#     if maxi%i==0:
+#         a.append(i)
+# for j in range(1,mini+1):
+#     if mini%j==0:
+#         b.append(j)
+# maximum=0
+# for i in a:
+#     if i in b:
+#         if i>maximum:
+#             maximum=i
+# print(maximum)
+# s = "abaccb"
+# count=0
+# for i in range(s):
+#     count=(i[0]-i[2])-1
+# print(count)
